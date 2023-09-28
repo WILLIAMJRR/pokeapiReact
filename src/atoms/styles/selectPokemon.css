@@ -1,0 +1,49 @@
+.inputs_pokemon {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #dfe1e1;
+}
+
+.select_type_pokemon {
+    font-family: 'Fredoka One', cursive;
+
+    color: #f62500;
+    border: none;
+    height: 20px;
+    padding: 2px;
+    border-radius: 0.2rem;
+    width: 150px;
+}
+
+.poke_form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.poke_input {
+    padding-left:1rem;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 0.8rem;
+    background-color: #fdfbfb;
+    color: #f62500;
+}
+.poke_btn {
+    position: absolute;
+    right: 12%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #dcddde;
+
+    color: #f62500;
+}

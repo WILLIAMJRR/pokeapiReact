@@ -1,0 +1,43 @@
+/* reset */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Fredoka+One&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(5, 5, 17);
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ul {
+	padding-left: 0;
+	list-style: none;
+}
+img {
+	width: 100%;
+	display: block;
+}
+input {
+	outline: none;
+	font-size: inherit;
+	font-family: inherit;
+}
+button {
+	font-family: inherit;
+	border: none;
+}
+.card {
+	background-color: inherit;
+	border-radius: 0.5rem;
+	color: #ffffff;
+	margin: 2rem auto;
+}
