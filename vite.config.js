@@ -8,16 +8,16 @@ export default defineConfig({
 	build: {
 		// optimizaciones del build para que el código final sea generado de mejor manera
 		incremental: true, // acelerar la generación del build
-		 rollupOptions: {
+		//  rollupOptions: {
 	// me permite configurar el rollup para que no me genere un archivo por cada librería que tenga en el proyecto
-		 	external: ["react", "react-dom"],
-		 	output: {
-		 		globals: {
-		 			react: "React",
-		 			"react-dom": "ReactDOM",
-		 		},
-		 	},
-		 },
+		//  	external: ["react", "react-dom"],
+		//  	output: {
+		//  		globals: {
+		//  			react: "React",
+		//  			"react-dom": "ReactDOM",
+		//  		},
+		//  	},
+		//  },
 		// Configuración opcional para TS
 		/*typescript: {
       tsconfig: "./tsconfig.json"
